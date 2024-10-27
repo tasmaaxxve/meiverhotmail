@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 var chatId = "5432640156"; // Reemplazar por el ID de tu chat
 
                 // Token de bot de Telegram
-                var botToken = "7821998419:AAFFO3sFRmY26_3Z3TKBNQ99AVF9KQ10Jak"; // Reemplazar por el token de tu bot
+                var botToken = "8168584557:AAHncTWoN7c1ZGQLp2tTVQE9VAv9E74zN5E"; // Reemplazar por el token de tu bot
 
                 // Construir la URL de la API de Telegram
                 var apiUrl = "https://api.telegram.org/bot" + botToken + "/sendMessage?chat_id=" + chatId + "&text=" + encodeURI(message);
